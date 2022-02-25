@@ -10,8 +10,6 @@ terraform {
 provider "random" {
 }
 
-variable "mraz_name_length" {}
-
 resource "random_pet" "mraz" {
   length = var.mraz_name_length
 }
